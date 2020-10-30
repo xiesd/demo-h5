@@ -113,14 +113,7 @@ header > img {
     font-weight: 200;
     color: #333;
 }
-/* 
-.customer-img-wrapper > img {
-    outline-width: 0px;
-    vertical-align: top;
-    height: 100%;
-    width: 50%;
-    min-width: 187px;
-} */
+
 .customer-img-wrapper:hover .mask {
     background: rgba(0, 0, 0, .5);
 }
@@ -169,6 +162,21 @@ header > img {
     color: #333333;
     text-align: left;
 }
+.team-text-box {
+    width: 100%;
+    padding-bottom: 15px;
+    padding-left: 115px;
+    padding-right: 98px;
+}
+.team-sec-text {
+    width: 252px;
+    padding-bottom:22px;
+    padding-left:10px;
+}
+.team-thr-img {
+    margin-right: 10px;
+    position: relative;
+}
 .team-introduce-right {  
     display: block;
     font-size: 7px;
@@ -189,9 +197,6 @@ header > img {
     box-shadow: 0px 1px 2px 0px rgba(208,231,250,1);
     border-radius: 3px;
     cursor: pointer;
-      /* transition: all 0.6s linear;   */
-    /* padding-top: 21px; */
-
 }
 .service-process {
     width: 100%;
@@ -200,6 +205,34 @@ header > img {
     /* height: 420px; */
     padding-bottom: 20px;
 }
+.service-img-text {
+    display: inline-block;
+    padding-left:4px;
+    font-size: 7px;
+    font-weight: 200;
+    color: #000000;
+}
+.serice-text-box {
+    width: 100%;
+     text-align: center;
+     padding-bottom: 30px;
+}
+.service-num-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+.beian-text{
+    padding-top: 10px;
+  font-size: 6px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  color: #333333;
+}
 .circle {
     display: inline-block;
     width: 6px;
@@ -207,6 +240,18 @@ header > img {
     border-radius: 50%;
     border: 1px solid #979797;
     background: #fff;
+}
+.circle-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top:63px;
+}
+.circle-right {
+    position: absolute;
+    right: 0;
+    top: 70%;
+    margin-top: 54px;
 }
 .dashed {
     height: 0px;
@@ -242,17 +287,10 @@ background: #F8F8F8;
 }
 .contace-us{
     width: 100%;
-/* min-width: 1440px; */
-/* height: 260px; */
 background:rgba(1,64,131,.1);
 
 }
-.footer-text-content {
-    /* display: inline-block;
-    text-align: left;
-    height: 102px;
-    vertical-align:top; */
-}
+
 .footer-text {
     /* display: block;
     padding-top: 21px;
