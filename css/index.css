@@ -110,7 +110,7 @@ header > img {
 
 .customer-demo-fw {
     font-size: 7px;
-    font-weight: 400;
+    font-weight: 200;
     color: #333;
 }
 /* 
@@ -140,7 +140,7 @@ header > img {
     background: rgba(0, 0, 0, 0);
     color: #ffffff;
     font-size: 9px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 100px;
     letter-spacing: 1px;
     transition: all 0.5s linear;
@@ -165,7 +165,7 @@ header > img {
 .team-introduce{
     display: block;
     font-size: 8px;
-    /* font-weight: 200; */
+    font-weight: 200;
     color: #333333;
     text-align: left;
 }
@@ -173,7 +173,7 @@ header > img {
     display: block;
     font-size: 7px;
     color: #000000;
-    /* font-weight: 400; */
+    font-weight: 200;
     padding-top: 10px;
 
 }
